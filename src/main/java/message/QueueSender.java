@@ -18,8 +18,8 @@ import object.Person;
 
 public class QueueSender {
 	public static void main(String[] args) throws Exception{
-		
-		
+	
+	
 		BasicConfigurator.configure();
 		//config environment for JNDI
 		Properties settings=new Properties();
