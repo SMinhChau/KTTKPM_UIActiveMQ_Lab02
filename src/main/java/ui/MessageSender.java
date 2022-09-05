@@ -123,8 +123,8 @@ public class MessageSender extends JFrame implements ActionListener{
 		//create producer
 		 producer = session.createProducer(destination);
 		//create text message
-		Message msg=session.createTextMessage("hello mesage from ActiveMQ");
-		producer.send(msg);
+//		Message msg=session.createTextMessage("hello mesage from ActiveMQ");
+//		producer.send(msg);
 		
 		
 //		Person p=new Person(1001, "Thân Thị Đẹt", new Date());
